@@ -1,0 +1,50 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-menu img{
+        content:url('../img/netflix-logo-n.svg');
+        height: 35px;
+    }
+
+    #menu{
+        /*display: block;*/
+        display: none;
+        width: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: rgba(20,20,20,.70);
+        text-align: center;
+    }
+
+    header nav ul>li{
+        display: block;
+        margin: 8px;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+
+    .botao{
+        margin-top: 5px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 701px){
+    #menu{
+        display: block;
+    }
+    .descricao{
+        width: 80%;
+    }
+
+    #header-menu img{
+        content:url('../img/netflix_logo.svg');
+        height: 35px;
+    }
+}
